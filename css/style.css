@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Sora", system-ui;
+}
+
+body {
+    font-size: 1.6rem;    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../img/bgc6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 40%;
+    width: 40%;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5rem;
+    backdrop-filter: blur(1rem);
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+input {
+    margin-top: 2rem;
+    display: inline-block;
+    width: 50%;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 1px solid #333;
+    outline: none;
+    padding: 1rem;
+}
+
+#username:focus {
+    border: 2px solid #e05c15;
+}
+
+a {
+    display: inline-block;
+    margin: 2rem 0;
+    color: #333;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: blue;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.announce {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 2rem;
+    font-weight: 900;
+}
